@@ -2,8 +2,8 @@
 
 ```
 from maskstring import StringMapper
+
 skip_chars = '01enrtuENRTU'
-#skip_chars = '01abcdefghijklmnopqrstuvwx'
 min_mask_len = 1
 # Example usage
 mapper = StringMapper(skip_chars=skip_chars, static_words=None, min_mask_len=min_mask_len, seed=23713613163291)
