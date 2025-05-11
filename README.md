@@ -1,6 +1,6 @@
 # ascii_masking
 
-'''
+```
 from maskstring import StringMapper
 skip_chars = '01enrtuENRTU'
 #skip_chars = '01abcdefghijklmnopqrstuvwx'
@@ -45,4 +45,4 @@ for i in range(0,len(letters)):
         c+=1
 
 print(f"{len(r)} {c}")
-'''
+```
